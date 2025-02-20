@@ -60,8 +60,12 @@ public class MahasiswaMhsMain25 {
         mhs1.updateIpk(3.60);
         mhs1.tampilkanInformasi();
 
+        // Objek kedua menggunakan konstruktor berparameter
         MahasiswaMhsMain25 mhs2 = new MahasiswaMhsMain25("Annisa Nabila", "2141720160", "TI 2L", 3.25);
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        MahasiswaMhsMain25 mhsYanuar = new MahasiswaMhsMain25("Yanuar Alda Baran", "244107060016", "SIB-1C", 3.71);
+        mhsYanuar.tampilkanInformasi();
     }
 }
