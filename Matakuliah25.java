@@ -1,17 +1,17 @@
-public class Matakuliah25 {
+public class MataKuliah25 {
     String kodeMK;
     String nama;
     int sks;
     int jumlahJam;
 
-    public Matakuliah25() {
+    public MataKuliah25() {
         this.kodeMK = "000";
         this.nama = "Unknown";
         this.sks = 0;
         this.jumlahJam = 0;
     }
 
-    public Matakuliah25(String kodeMK, String nama, int sks, int jumlahJam) {
+    public MataKuliah25(String kodeMK, String nama, int sks, int jumlahJam) {
         this.kodeMK = kodeMK;
         this.nama = nama;
         this.sks = sks;
